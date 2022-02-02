@@ -1,0 +1,105 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.child{
+    border: 1px solid black;
+    flex: 1 0 21%; /* explanation below */
+    margin: 5px;
+    text-align: center;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.child-more{
+    border: 1px solid black;
+    flex: 1 0 21%; /* explanation below */
+    margin: 5px;
+    text-align: center;
+    border-radius: 50px;
+    padding: 10px 0;
+}
+
+.child-moremore{
+    flex: 1 0 21%; /* explanation below */
+    margin: 5px;
+    text-align: left;
+    border-radius: 50px;
+    padding: 10px 0;
+}
+
+.child-haha{
+    flex: 1 0 21%; /* explanation below */
+    margin: 5px;
+    text-align: right;
+    border-radius: 50px;
+    padding: 10px 0;
+}
+
+.child-hahaha{
+    flex: 1 0 21%; /* explanation below */
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 10px;
+    border: 1px black solid;
+}
+
+.child-image{
+    flex: 1 0 21%; /* explanation below */
+    margin: 5px;
+    text-align: center;
+    border-radius: 50px;
+
+    height:100px;
+}
+
+.flex-container1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+
+img{
+    vertical-align: center;
+}
+
+button{
+    background-color: #ededed;
+    color: black;
+    border: 2px solid gray; /* Green */
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: gray; /* Green */
+    color: white;
+  }
+
+input{
+    padding: 5px;
+    font-size: 16px;
+    background-color: #ededed;
+    border-radius: 50px;
+}
+
+select{
+    background-color: #ededed;
+}
+
+/* 
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  } */
